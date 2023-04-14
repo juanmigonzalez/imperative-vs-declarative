@@ -1,27 +1,36 @@
-# ImperativeVsDeclarative
+# Imperative Vs Declarative (Declara tu código)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.3.
+## Qué código es imperativo en contexto Angular
 
-## Development server
+"Código imperativo" se refiere a un estilo de programación en el cual se especifican las instrucciones paso a paso para realizar una tarea o lograr un resultado específico. Este enfoque contrasta con la "programación declarativa", que se centra en describir el resultado deseado sin especificar necesariamente cómo lograrlo.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Imperativo -> **Cómo**
 
-## Code scaffolding
+![Ejemplo](https://i.im.ge/2023/04/14/LsV1w1.image.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Declarativo -> **Qué**
 
-## Build
+## Ventajas de usar estilo declarativo
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Mayor legibilidad: un estilo declarativo es más legible ya que se enfoca en qué se debe hacer en lugar de cómo hacerlo. Esto hace que el código sea más fácil de entender y mantener.
 
-## Running unit tests
+- Reducción de errores: con un estilo declarativo, hay menos posibilidades de cometer errores, ya que el código es más simple y directo. Además, como el código es más fácil de entender, es más probable que se detecten errores durante la revisión del código.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Mayor escalabilidad: un estilo declarativo permite una mayor escalabilidad del código, ya que se puede agregar nuevas funcionalidades sin necesidad de cambiar el código existente.
 
-## Running end-to-end tests
+## Seguimiento de cambios de una variable
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+![Ejemplo](https://pbs.twimg.com/media/FtpCRwnaMAEANAO?format=jpg&name=4096x4096)
 
-## Further help
+## Ejercicio
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Convierte una promesa en un observable con Rxjs
+
+- git clone https://github.com/juanmigonzalez/imperative-vs-declarative
+- cd imperative-vs-declarative
+- npm i
+- ng serve
+
+## Mas info
+
+https://www.youtube.com/watch?v=skOTEbGwncE
